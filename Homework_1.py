@@ -20,11 +20,11 @@ def hangman(): #Funktion des Spiels
         guess=input("\nGib einen Buchstaben ein: ").lower()
         
         if len(guess)!=1 or not guess.isalpha():
-            print("❌ Ungültige Eingabe! Bitte gib einen einzelnen Buchstaben ein.")
+            print("Ungültige Eingabe! Bitte gib einen einzelnen Buchstaben ein.")
             continue
         
         if guess in guessed_letters:
-            print("⚠️ Du hast diesen Buchstaben schon geraten.")
+            print("Du hast diesen Buchstaben schon geraten.")
             continue
         guessed_letters.add(guess)
         
