@@ -1,5 +1,7 @@
 # homework_assignment
 
+From Stefan Bürbaum - 12009232
+
 This code contains an easy game of Hangman.
 You have 6 tries to guess the correct word in order to win the game. 
 The first function choose_word chooses a random word from a list.
